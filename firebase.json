@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "nexter1",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+.footer {
+    font-size: 1.4rem;
+    background-color: $color-secondary;
+    grid-column: full-start / full-end;
+    padding: 8rem;
+
+    @media only screen and (max-width: $bp-medium) {
+        padding: 6rem;
+    }
+
+    @media only screen and (max-width: $bp-small) {
+        padding: 4rem;
+    }
+}
+
+.nav {
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+    &__link:visited,
+    &__link:link {
+        color: #fff;
+        font-family: $font-display;
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 1.5rem;
+        display: block;
+        transition: all 200ms;
+    }
+
+    &__link:hover,
+    &__link:active {
+        background-color: rgba(#fff, .05);
+        transform: translateY(-3px);
+    }
+}
+
+.copyright {
+    color: $color-grey-light-2;
+    margin-top: 6rem;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 70%;
+}
