@@ -1,8 +1,4 @@
 bin/index.ts
 
-# node
+#node
 **node_modules/
-
-# firebase
-.firebaserc
-.firebase
